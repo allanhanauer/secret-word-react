@@ -1,0 +1,28 @@
+.end_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    gap: 30px;
+    padding: 20px;
+    color: #226b80;
+  }
+  .end_menu #title_end{
+      color: #226b80;
+  }
+  .end_menu #pont_end{
+      color : #35b0ab;
+  }
+  .end_menu #end_button {
+    color: #226b80;
+    border : 1px solid #226b80;
+    border-radius: 30px;
+    padding: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  .end_menu #end_button:hover {
+    color: #35b0ab;
+  }
+  

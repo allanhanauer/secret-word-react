@@ -1,0 +1,27 @@
+.first_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  gap: 30px;
+  padding: 20px;
+  color: #226b80;
+}
+.first_menu #title_init{
+    color: #226b80;
+}
+.first_menu #tip_init{
+    color : #35b0ab;
+}
+.first_menu #init_button {
+  color: #226b80;
+  border : 1px solid #226b80;
+  border-radius: 30px;
+  padding: 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.first_menu #init_button:hover {
+  color: #35b0ab;
+}
